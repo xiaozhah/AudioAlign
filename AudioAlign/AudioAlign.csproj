@@ -9,6 +9,9 @@
 	<Copyright>Copyright © 2010-2023 Mario Guggenberger</Copyright>
 	<Version>1.7.0</Version>
 	<NeutralLanguage>en</NeutralLanguage>
+    <!-- Support ARM64 -->
+    <RuntimeIdentifiers>win-arm64;win-x64;win-x86</RuntimeIdentifiers>
+    <Platforms>ARM64;x64;x86;AnyCPU</Platforms>
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="..\NOTICE">
